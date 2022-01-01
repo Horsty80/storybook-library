@@ -1,0 +1,37 @@
+import { ArgsTable, Meta, Story, Canvas } from '@storybook/addon-docs';
+import { Button, Props } from '../src/Button';
+
+<Meta title="MDX/Button" component={Button} />
+
+export const Template = (args) => <Button {...args} />;
+
+# Button
+
+Let's define a story for our `Button` component:
+
+<Story name="My Button" args={{ children: 'I am in MDX' }}>
+  {Template.bind({})}
+</Story>
+
+<ArgsTable story="My Button" />
+
+I want extra text description here !!!
+
+<Canvas>
+  <Story name="Primary" args={{ children: 'MDX primary', variant: 'primary' }}>
+    {Template.bind({})}
+  </Story>
+  <Story
+    name="Secondary"
+    args={{ children: 'MDX secondary', variant: 'secondary' }}
+  >
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
