@@ -1,4 +1,9 @@
-`tsrafc` -> react arrow component with typescript
+## My notes
+
+- `tsrafc` -> react arrow component with typescript
+- https://dev.to/kouts/deploy-storybook-to-github-pages-3bij
+- https://docs.github.com/en/actions
+- https://github.com/JamesIves/github-pages-deploy-action
 
 # TSDX React w/ Storybook User Guide
 
