@@ -1,0 +1,23 @@
+export interface KanomaTheme  {
+    availableColors: 'kanoma-purple-100'
+    | 'kanoma-purple-200'
+    | 'kanoma-purple-300'
+    | 'kanoma-purple-200'
+    | 'kanoma-purple-400'
+    | 'kanoma-purple-500'
+    | 'kanoma-purple-600'
+    | 'kanoma-purple-700'
+    | 'kanoma-purple-800'
+    | 'kanoma-purple-900'
+    | 'kanoma-yellow-100'
+    | 'kanoma-yellow-200'
+    | 'kanoma-yellow-300'
+    | 'kanoma-yellow-400'
+    | 'kanoma-yellow-500'
+    | 'kanoma-yellow-600'
+    | 'kanoma-yellow-700'
+    | 'kanoma-yellow-800'
+    | 'kanoma-yellow-900'
+    | 'primary'
+    | 'secondary';
+}
