@@ -3,7 +3,7 @@ import { Meta } from '@storybook/react';
 import { CustomColor } from '../src/CustomColor';
 
 const meta: Meta = {
-  title: 'Colors',
+  title: 'Components/Colors',
   component: CustomColor,
   argTypes: {
     color: {

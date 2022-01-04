@@ -4,7 +4,7 @@ import { Button, Props } from '../src/Button';
 import { action } from '@storybook/addon-actions';
 
 const meta: Meta = {
-  title: 'Custom Button',
+  title: 'Components/Custom Button',
   component: Button,
   // default value for args parameter
   argTypes: {

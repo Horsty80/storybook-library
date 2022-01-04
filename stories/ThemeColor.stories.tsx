@@ -3,7 +3,7 @@ import { Meta } from '@storybook/react';
 import { ThemeColor } from '../src/ThemeColor';
 
 const meta: Meta = {
-  title: 'Themes',
+  title: 'Components/Themes',
   component: ThemeColor,
   argTypes: {
     name: {
