@@ -14,4 +14,4 @@ export const Thing: FC<Props> = ({ children }) => {
   return <div>{children || `the snozzberries taste like snozzberries`}</div>;
 };
 
-export { Button } from './Button';
+export { Button } from './atoms/Button';

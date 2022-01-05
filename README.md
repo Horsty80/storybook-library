@@ -4,6 +4,7 @@
 - https://dev.to/kouts/deploy-storybook-to-github-pages-3bij
 - https://docs.github.com/en/actions
 - https://github.com/JamesIves/github-pages-deploy-action
+- https://frontend.blog/build-your-own-flexible-component-library-using-tsdx-typescript-tailwind-css-headless-ui/
 
 # TSDX React w/ Storybook User Guide
 

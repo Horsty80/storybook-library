@@ -1,9 +1,8 @@
 import React from 'react';
 import { Meta } from '@storybook/react';
-import { ThemeColor } from '../src/ThemeColor';
+import { ThemeColor } from '../../src/overview/ThemeColor';
 
 const meta: Meta = {
-  title: 'Components/Themes',
   component: ThemeColor,
   argTypes: {
     name: {

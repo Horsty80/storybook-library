@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useRef, useState } from 'react';
-import { RGBToHex } from '../lib/colorHelpers';
-import { KanomaTheme } from '../models/theme';
+import { RGBToHex } from '../../lib/colorHelpers';
+import { KanomaTheme } from '../../models/theme';
 
 interface Props {
   bgName: KanomaTheme;

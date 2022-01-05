@@ -1,6 +1,6 @@
 import React from 'react';
-import { ColorBox } from './components/ColorBox';
-import { KanomaTheme } from './models/theme';
+import { ColorBox } from './ColorBox';
+import { KanomaTheme } from '../../models/theme';
 
 export interface Props {
   name: 'kanoma-purple' | 'kanoma-yellow';
