@@ -1,6 +1,6 @@
 {
   // see https://www.typescriptlang.org/tsconfig to better understand tsconfigs
-  "include": ["src", "types", "lib", "models"],
+  "include": ["./src/*"],
   "compilerOptions": {
     "module": "esnext",
     "lib": ["dom", "esnext"],

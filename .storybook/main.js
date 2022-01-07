@@ -25,14 +25,6 @@ module.exports = {
       // 👇 Storybook will load all files that contain the stories extensio
       files: '*.stories.@(ts|tsx|js|jsx)',
     },
-    // {
-    //   // 👇 The directory field sets the directory your stories
-    //   directory: '../stories/**/',
-    //   // 👇 The titlePrefix field will generate automatic titles for your stories
-    //   titlePrefix: 'Doc',
-    //   // 👇 Storybook will load all files that contain the stories extensio
-    //   files: '*.stories.mdx',
-    // },
     '../stories/**/*.stories.@(mdx)',
   ],
   staticDirs: ['../ressources'],
