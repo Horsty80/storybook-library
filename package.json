@@ -26,12 +26,6 @@
   "peerDependencies": {
     "react": ">=16"
   },
-  "babel": {
-    "presets": [
-      "@babel/preset-react",
-      "@babel/preset-flow"
-    ]
-  },
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
