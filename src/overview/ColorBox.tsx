@@ -6,6 +6,7 @@ interface Props {
   bgName: KanomaTheme;
 }
 
+
 export const ColorBox = ({ bgName }: Props) => {
   const colorRef = useRef(null);
   const [hexaColor, setHexaColor] = useState('');

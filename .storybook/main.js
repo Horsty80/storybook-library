@@ -19,9 +19,9 @@ module.exports = {
     },
     {
       // 👇 The directory field sets the directory your stories
-      directory: '../stories/overview',
+      directory: '../stories/overview/kanoma',
       // 👇 The titlePrefix field will generate automatic titles for your stories
-      titlePrefix: 'Overview',
+      titlePrefix: 'KanomaOverview',
       // 👇 Storybook will load all files that contain the stories extensio
       files: '*.stories.@(ts|tsx|js|jsx)',
     },

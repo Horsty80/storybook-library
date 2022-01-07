@@ -1,12 +1,15 @@
 import React from 'react';
 import { Meta } from '@storybook/react';
-import { CustomColor } from '../../src/overview/CustomColor';
+import { CustomColor } from '../../../src/overview/CustomColor';
 
 const meta: Meta = {
   component: CustomColor,
   argTypes: {
     color: {
-      defaultValue: 'primary',
+      control: {
+        options: ['primary', 'secondary'],
+        type: 'select',
+      },
     },
   },
 };
