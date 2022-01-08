@@ -1,0 +1,18 @@
+[
+  {
+    "img": "./images/locations-example/outdoor-getaways.jpeg",
+    "title": "Outdoor getaways"
+  },
+  {
+    "img": "./images/locations-example/unique-stays.jpeg",
+    "title": "Unique stays"
+  },
+  {
+    "img": "./images/locations-example/entire-homes.jpeg",
+    "title": "Entire homes"
+  },
+  {
+    "img": "./images/locations-example/pet-allowed.jpeg",
+    "title": "Pet allowed"
+  }
+]
