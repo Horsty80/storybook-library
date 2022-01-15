@@ -7,6 +7,13 @@ import SvgUsine from "../../src/atoms/icons/SvgUsine";
 import SvgValeurAjoutee from "../../src/atoms/icons/SvgValeurAjoutee";
 import SvgKanomaLogoFilaireBleu from "../../src/atoms/icons/SvgKanomaLogoFilaireBleu";
 import SvgPersoG from "../../src/atoms/icons/SvgPersoG";
+import SvgBulletPoint from "../atoms/icons/SvgBulletPoint";
+import SvgCooperation from "../atoms/icons/SvgCooperation";
+import SvgHumilite from "../atoms/icons/SvgHumilite";
+import SvgPlaisir from "../atoms/icons/SvgPlaisir";
+import SvgRadar from "../atoms/icons/SvgRadar";
+import SvgRocket from "../atoms/icons/SvgRocket";
+import SvgTruck from "../atoms/icons/SvgTruck";
 
 const iconMap = {
   SvgUmbrella,
@@ -14,6 +21,13 @@ const iconMap = {
   SvgValeurAjoutee,
   SvgKanomaLogoFilaireBleu,
   SvgPersoG,
+  SvgBulletPoint,
+  SvgCooperation,
+  SvgHumilite,
+  SvgPlaisir,
+  SvgRadar,
+  SvgRocket,
+  SvgTruck,
 };
 
 export interface Props {
